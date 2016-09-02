@@ -157,6 +157,7 @@ class PayeezyCreditCardPayment extends Payment
 			case 'Certify':
 			{
 				$client->setUrl($this->config()->cert_url);
+				Debug::log(json_encode($payload,true));
 				break;
 			}
 			case 'Sandbox':
