@@ -1,0 +1,4 @@
+
+SiteConfig:
+  extensions:
+    - PayeezyPayment_SiteConfig

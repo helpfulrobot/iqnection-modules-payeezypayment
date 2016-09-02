@@ -1,0 +1,19 @@
+{
+	"name": "iqnection-modules/payeezypayment",
+	"description": "SilverStripe 3 Payeezy Payment Module",
+	"type": "silverstripe-module",
+	"keywords": ["iqnection","modules"],
+	"authors": [
+		{
+			"name": "IQnection",
+            "homepage": "http://www.iqnection.com"
+		}
+	],
+	"require": {
+		"silverstripe/framework": ">=3.0",
+		"iqnection-modules/payment" : "dev-master"
+	},
+	"extra": {
+		"installer-name": "iq-payeezypayment"
+	}
+}
